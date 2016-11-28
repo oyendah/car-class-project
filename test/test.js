@@ -41,7 +41,7 @@
 
       var koenigsegg = new Car('Koenigsegg', 'Agera R');
       expect(koenigsegg.numOfWheels).to.be.equal(4);
-      expect(koenigsegg.isSaloon).to.be.ok();
+      expect(koenigsegg.isSaloon).to.be.ok;
     });
 
     it("The Trailer should have speed 0 km/h until you put `the pedal to the metal`", function() {
@@ -54,9 +54,9 @@
     it("The car drive function should return the instance of the Car class", function() {
       var man  = new Car('MAN', 'Truck', 'trailer');
       var drivingMan = man.drive(7);
-      expect(drivingMan instanceof Car).to.be.ok();
+      expect(drivingMan instanceof Car).to.be.ok;
       expect(typeof drivingMan.drive).to.be.equal(typeof (function (){}));
-      expect(man.speed).to.be(drivingMan.speed);
+      expect(man.speed).to.be.equal(drivingMan.speed);
     });
 
   });
