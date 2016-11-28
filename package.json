@@ -1,0 +1,22 @@
+{
+  "name": "car-class-project",
+  "version": "1.0.0",
+  "description": "Creating a Car class with parameters name, model and type",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oyendah/car-class-project.git"
+  },
+  "author": "Subair Oyindamola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oyendah/car-class-project/issues"
+  },
+  "homepage": "https://github.com/oyendah/car-class-project#readme",
+  "dependencies": {
+    "chai": "^3.5.0"
+  }
+}
