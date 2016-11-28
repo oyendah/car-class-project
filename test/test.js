@@ -54,6 +54,7 @@
     it("The car drive function should return the instance of the Car class", function() {
       var man  = new Car('MAN', 'Truck', 'trailer');
       var drivingMan = man.drive(7);
+      
       expect(drivingMan instanceof Car).to.be.ok;
       expect(typeof drivingMan.drive).to.be.equal(typeof (function (){}));
       expect(man.speed).to.be.equal(drivingMan.speed);
